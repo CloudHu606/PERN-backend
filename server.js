@@ -25,8 +25,8 @@ masterRoutes(app);
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
-})
+});
 
 app.listen(port, () => {
     console.log(`api listening at http://localhost:${port}`)
-})
+});
