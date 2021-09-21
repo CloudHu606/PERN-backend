@@ -1,5 +1,6 @@
 # PERN-backend
-initial app
+
+*initial app*
 
 PM: npm / yarn
 
@@ -7,16 +8,19 @@ Setup a PERN stack backend
 
 Inital 
 yarn init 
+
 ( yarn init -y ) // default setup 
 
-Dependencies install 
+*Dependencies install*
+--
 
-*PROD*
+prod
+--
 yarn add express pg cors path dotenv
 
-*DEV*
-yarn add nodemon --dev
-yarn add eslint --dev
+dev
+--
+yarn add nodemon eslint --dev
 
 ---
 DB connection 
